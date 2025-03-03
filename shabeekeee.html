@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shabeek Arshath - Electrical Engineer Portfolio</title>
+
+    <!-- Google Fonts and Font Awesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 999;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 80px 0;
+            margin-top: 100px;
+        }
+
+        .container {
+            width: 85%;
+            margin: 0 auto;
+        }
+
+        .profile img {
+            width: 200px;
+            border-radius: 50%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        /* Skills Section */
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills ul li {
+            background-color: #e0e0e0;
+            margin: 5px;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 1.1em;
+            width: calc(33% - 10px);
+            text-align: center;
+        }
+
+        .skills ul li i {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        /* Project Section */
+        .projects .project {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .projects .project img {
+            width: 40%;
+            border-radius: 8px;
+        }
+
+        .projects .project-details {
+            width: 55%;
+            padding-left: 20px;
+        }
+
+        .projects .project-details h3 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .projects .project-details p {
+            color: #555;
+        }
+
+        /* Contact Section */
+        .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact ul li {
+            background-color: #e0e0e0;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .contact ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .skills ul li {
+                width: 100%;
+                text-align: center;
+            }
+
+            .projects .project {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .projects .project img {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Shabeek Arshath</h1>
+        <p>Electrical Engineer | Innovator | Problem Solver</p>
+    </header>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="container">
+            <div class="profile">
+                <img src="profile.jpg" alt="Shabeek Arshath">
+                <h2>About Me</h2>
+                <p>Hello! I'm Shabeek Arshath, an Electrical Engineer with a passion for sustainable energy solutions and cutting-edge electrical systems. I specialize in designing, analyzing, and optimizing electrical circuits and power systems. My goal is to contribute to technology that not only advances industries but also contributes to a greener planet.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills">
+                <ul>
+                    <li><i class="fas fa-bolt"></i> Power Systems</li>
+                    <li><i class="fas fa-cogs"></i> Automation & Control</li>
+                    <li><i class="fas fa-solar-panel"></i> Renewable Energy</li>
+                    <li><i class="fas fa-microchip"></i> Circuit Design</li>
+                    <li><i class="fas fa-laptop-code"></i> Embedded Systems</li>
+                    <li><i class="fas fa-tools"></i> CAD & Simulation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects">
+                <!-- Project 1 -->
+                <div class="project">
+                    <img src="solar_project.jpg" alt="Solar Power Project">
+                    <div class="project-details">
+                        <h3>Solar Power System Design</h3>
+                        <p>Developed and implemented a solar power system for residential areas, ensuring sustainable energy use and lowering electricity costs.</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project">
+                    <img src="hvac_project.jpg" alt="HVAC Control System">
+                    <div class="project-details">
+                        <h3>HVAC Control System Automation</h3>
+                        <p>Designed an automated control system for HVAC in commercial buildings, optimizing energy efficiency and reducing operational costs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: <a href="mailto:shabeek414@gmail.com">shabeek414@gmail.com</a></li>
+                <li>Phone: +91 8148489669</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/shabeekarshath" target="_blank">linkedin.com/in/shabeek-arshath</a></li>
+                <li>GitHub: <a href="https://github.com/shabeekarshath" target="_blank">github.com/shabeekarshath</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Shabeek Arshath | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
